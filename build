@@ -1,0 +1,5 @@
+#!/bin/sh
+for c in cmd/*
+do
+/usr/bin/env GOOS=linux CGO_ENABLED=0 go build -trimpath -o "bin/$f" -ldflags '-s -w -extldflags "-static"' "./cmd/$f"
+done
