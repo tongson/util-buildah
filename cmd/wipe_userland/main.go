@@ -191,6 +191,9 @@ const files string = `/XXXXX
 /usr/share/base-passwd/passwd.master
 /XXXXX
 /bin/sed
+/XXXXX
+/usr/bin/find
+/usr/bin/xargs
 /XXXXX`
 
 func main() {
