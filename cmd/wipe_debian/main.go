@@ -51,17 +51,6 @@ const files string = `/XXXXX
 /usr/sbin/remove-shell
 /usr/share/debianutils/shells
 /XXXXX
-/bin/tar
-/etc/rmt
-/usr/lib/mime/packages/tar
-/usr/sbin/rmt-tar
-/usr/sbin/tarcat
-/XXXXX
-/usr/bin/cmp
-/usr/bin/diff
-/usr/bin/diff3
-/usr/bin/sdiff
-/XXXXX
 /etc/apt/apt.conf.d/01autoremove
 /etc/cron.daily/apt-compat
 /etc/kernel/postinst.d/apt-auto-removal
@@ -107,25 +96,6 @@ const files string = `/XXXXX
 /usr/lib/s390x-linux-gnu/libapt-private.so.0.0.0
 /usr/share/bash-completion/completions/apt
 /XXXXX
-/etc/bindresvport.blacklist
-/etc/default/nss
-/etc/gai.conf
-/etc/ld.so.conf
-/etc/ld.so.conf.d/libc.conf
-/sbin/ldconfig
-/usr/bin/catchsegv
-/usr/bin/getconf
-/usr/bin/getent
-/usr/bin/iconv
-/usr/bin/ldd
-/usr/bin/locale
-/usr/bin/localedef
-/usr/bin/pldd
-/usr/bin/tzselect
-/usr/bin/zdump
-/usr/sbin/iconvconfig
-/usr/sbin/zic
-/XXXXX
 /etc/apt/apt.conf.d/70debconf
 /etc/debconf.conf
 /usr/bin/debconf
@@ -141,11 +111,6 @@ const files string = `/XXXXX
 /usr/share/perl5/Debconf
 /usr/share/perl5/Debian
 /usr/share/pixmaps/debian-logo.pngG
-/XXXXX
-/usr/bin/mawk
-/XXXXX
-/bin/dash
-/bin/sh
 /XXXXX`
 
 const wildcard string = `/usr/lib/x86_64-linux-gnu/libapt-*
