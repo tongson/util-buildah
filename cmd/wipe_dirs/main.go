@@ -1,8 +1,12 @@
 package main
 
-import "os"
+import (
+	"os"
+	"syscall"
+)
 
 func main() {
+	syscall.Umask(0)
 	os.RemoveAll("/tmp")
 	os.MkdirAll("/tmp", 01777)
 	os.RemoveAll("/var/tmp")
