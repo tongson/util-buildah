@@ -197,9 +197,6 @@ const files string = `/XXXXX
 /XXXXX
 /usr/bin/mawk
 /XXXXX
-/bin/dash
-/bin/sh
-/XXXXX
 /bin/tar
 /etc/rmt
 /usr/lib/mime/packages/tar
