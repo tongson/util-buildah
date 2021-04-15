@@ -1,4 +1,4 @@
-package main
+package purge_perl
 
 import (
 	"strings"
@@ -10,7 +10,7 @@ import (
 const wildcard string = `/usr/bin/perl*`
 const files string = `/usr/lib/x86_64-linux-gnu/perl-base`
 
-func main() {
+func Main() {
 	ws := bufio.NewScanner(strings.NewReader(wildcard))
 	for ws.Scan() {
 		glob, _ := filepath.Glob(ws.Text())

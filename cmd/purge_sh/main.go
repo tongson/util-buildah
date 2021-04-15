@@ -1,4 +1,4 @@
-package main
+package purge_sh
 
 import (
 	"bufio"
@@ -11,7 +11,7 @@ const files string = `/XXXXX
 /bin/sh
 /XXXXX`
 
-func main() {
+func Main() {
 	s := bufio.NewScanner(strings.NewReader(files))
 	for s.Scan() {
 		os.Remove(s.Text())

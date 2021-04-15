@@ -1,4 +1,4 @@
-package main
+package purge_userland
 
 import (
 	"bufio"
@@ -228,7 +228,7 @@ const files string = `/XXXXX
 /usr/sbin/zic
 /XXXXX`
 
-func main() {
+func Main() {
 	s := bufio.NewScanner(strings.NewReader(files))
 	for s.Scan() {
 		os.Remove(s.Text())

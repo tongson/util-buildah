@@ -1,4 +1,4 @@
-package main
+package purge_docs
 
 import (
 	"bufio"
@@ -18,7 +18,7 @@ const files string = `/usr/share/doc
 /usr/share/bash-completion
 /var/cache/man`
 
-func main() {
+func Main() {
 	s := bufio.NewScanner(strings.NewReader(files))
 	for s.Scan() {
 		os.RemoveAll(s.Text())

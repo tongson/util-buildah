@@ -1,11 +1,11 @@
-package main
+package purge_dirs
 
 import (
 	"os"
 	"syscall"
 )
 
-func main() {
+func Main() {
 	syscall.Umask(0)
 	os.RemoveAll("/tmp")
 	os.MkdirAll("/tmp", 01777)
