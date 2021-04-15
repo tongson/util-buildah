@@ -1,4 +1,4 @@
-package main
+package purge_dpkg
 
 import (
 	"strings"
@@ -116,7 +116,7 @@ const files string = `/XXXXX
 const wildcard string = `/usr/lib/x86_64-linux-gnu/libapt-*
 `
 
-func main() {
+func Main() {
 	ws := bufio.NewScanner(strings.NewReader(wildcard))
 	for ws.Scan() {
 		glob, _ := filepath.Glob(ws.Text())

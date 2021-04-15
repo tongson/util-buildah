@@ -1,7 +1,7 @@
-package main
+package rm
 
 import "os"
 
-func main() {
+func Main() {
 	os.RemoveAll(os.Args[1])
 }
