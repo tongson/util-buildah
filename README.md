@@ -1,3 +1,5 @@
+# NO LONGER NEEDED. FUNCTIONALITY INTEGRATED TO buildah.lua
+
 # util-buildah
 coreutils-like for buildah
 
